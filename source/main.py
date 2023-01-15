@@ -2,8 +2,7 @@ import os
 import telebot 
 from telebot import types
 
-
-def telegram_bot(request):
+def telegram_bot():
     
     bot = telebot.TeleBot(token=os.environ["TELEGRAM_TOKEN"], parse_mode=None)
 
